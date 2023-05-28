@@ -1,0 +1,42 @@
+https://www.youtube.com/watch?v=9OfL9H6AmhQ&ab_channel=Devtamin
+
+
+············· tips
+.gitignore --- create file and ignore node_modules etc
+
+············· soft
+nodejs
+insomnia --- это клиент для тестирования API, который позволяет отправлять HTTP-запросы и просматривать ответы в удобном интерфейсе12 
+postman --- это платформа для разработки и тестирования API, которая также позволяет отправлять HTTP-запросы и просматривать ответы, а также создавать коллекции запросов, автоматизировать тесты, документировать API и многое другое
+nodemon --- это инструмент для разработки Node.js приложений, который автоматически перезапускает сервер при изменении файлов, что ускоряет процесс разработки
+express --- это фреймворк для создания веб-приложений и API на Node.js, который предоставляет поддержку HTTP-запросов из коробки и имеет интуитивный синтаксис для стандартных HTTP-методов, используемых в принципах REST
+mongoose --- MongoDB (https://www.mongodb.com/)
+
+············· package.json
+"serve": "node server.js"
+"dev": "nodemon server.js" --- nodemon
+
+············· Terminal
+node server.js --- run server
+npm run serve --- run server from package.json
+npm i express --- install express (https://expressjs.com/en/starter/hello-world.html --- documentation)
+npm i nodemon -D --- install nodemon (-D - dependencies, https://www.npmjs.com/package/nodemon)
+npm run dev --- nodemon
+npm i mongoose --- mongoDB (https://www.npmjs.com/package/mongoose)
+npm i body-parser
+npm i xmlbuilder --- XML
+npm i typescript
+npm install @types/express @types/body-parser
+npm install ts-node nodemon
+npm install typescript --save-dev --- 
+npm i react react-dom --- Установить React и React DOM как зависимости вашего проекта
+npm install --save-dev @types/react @types/react-dom --- Установить типы для React и React DOM как зависимости разработки
+
+npm i -g yarn --- Для установки зависимостей
+
+CTRL + C --- stop terminal (server)
+	············· git 
+	git init --- инициализирует пустой репозиторий Git в текущей папке
+	git add . --- добавляет все измененные файлы в индекс для следующего коммита 
+	git commit -m “Web services” --- создает новый коммит с сообщением “Web services” 
+	
