@@ -32,7 +32,7 @@ npm install typescript --save-dev ---
 npm i react react-dom --- Установить React и React DOM как зависимости вашего проекта
 npm install --save-dev @types/react @types/react-dom --- Установить типы для React и React DOM как зависимости разработки
 
-npm i -g yarn --- Для установки зависимостей
+npm run build --- client
 
 CTRL + C --- stop terminal (server)
 	············· git 
@@ -40,3 +40,16 @@ CTRL + C --- stop terminal (server)
 	git add . --- добавляет все измененные файлы в индекс для следующего коммита 
 	git commit -m “Web services” --- создает новый коммит с сообщением “Web services” 
 	
+	…or create a new repository on the command line
+	echo "# web_app" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/Ksorz/web_app.git
+	git push -u origin main
+
+	…or push an existing repository from the command line
+	git remote add origin https://github.com/Ksorz/web_app.git
+	git branch -M main
+	git push -u origin main
